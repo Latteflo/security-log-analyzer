@@ -1,0 +1,36 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /logs/sample.log
+  multiline:
+    pattern: '^\d{4}-\d{2}-\d{2}T'
+    negate: true
+    match: after
+  fields:
+    log_source: security_logs
+    log_type: security_event
+  fields_under_root: false
+  tags: ["security"]
+
+processors:
+  - dissect:
+      tokenizer: "%{timestamp} %{level} %{message}"
+      field: "message"
+      target_prefix: "log"
+  - timestamp:
+      field: log.timestamp
+      layouts:
+        - "2006-01-02T15:04:05"
+      test: "2023-01-03T08:15:22"
+      target_field: "@timestamp"
+
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
+  index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
+
+setup.kibana:
+  host: "kibana:5601"
+
+logging.level: info
+EOF

@@ -1,0 +1,361 @@
+2023-01-03T08:15:22 INFO User john logged in successfully from 192.168.1.101
+2023-01-03T12:45:36 INFO User admin logged in successfully from 192.168.1.100
+2023-01-05T14:22:18 WARN Failed login attempt for user admin from 45.132.55.67
+2023-01-05T14:22:45 WARN Failed login attempt for user admin from 45.132.55.67
+2023-01-05T14:23:12 WARN Failed login attempt for user admin from 45.132.55.67
+2023-01-05T14:23:56 ERROR Possible brute force attack detected from 45.132.55.67
+2023-01-10T02:34:19 WARN Suspicious login time for user root from 103.243.28.104 (off-hours activity)
+2023-01-15T09:45:28 INFO User maria logged in successfully from 192.168.1.102
+2023-01-22T16:32:11 WARN Firewall blocked connection from 91.234.56.19 to port 22
+2023-01-28T11:05:42 INFO Service apache2 restarted by user admin
+
+2023-02-02T13:24:15 INFO User jenkins logged in successfully from 192.168.1.103
+2023-02-07T10:18:43 WARN Failed login attempt for user root from 217.89.45.55
+2023-02-09T09:32:51 INFO New user account 'sarah' created by admin
+2023-02-14T16:43:22 INFO User sarah logged in successfully from 192.168.1.101
+2023-02-14T17:12:36 WARN Unusual outbound connection from internal host 192.168.1.102 to 35.156.87.22
+2023-02-18T22:14:53 ERROR Malware signature detected on host 192.168.1.101 - Trojan.Generic.45673
+2023-02-20T08:42:17 INFO Sensitive file /etc/passwd accessed by user admin
+2023-02-25T14:35:25 INFO User john logged in successfully from 172.16.5.10
+2023-02-28T18:45:33 WARN System configuration change by admin on 192.168.1.100
+
+2023-03-02T07:25:18 INFO User alex logged in successfully from 192.168.1.102
+2023-03-03T11:36:42 WARN Failed login attempt for user admin from 45.132.55.67
+2023-03-03T11:37:15 WARN Failed login attempt for user admin from 45.132.55.67
+2023-03-03T11:37:48 ERROR Possible brute force attack detected from 45.132.55.67
+2023-03-05T16:28:37 WARN Port scan detected from 103.243.28.104
+2023-03-05T16:45:22 INFO Firewall blocked connection from 103.243.28.104 to port 80
+2023-03-07T09:14:56 ERROR Privilege escalation attempt by user guest from 192.168.1.103
+2023-03-09T13:22:41 INFO User maria logged in successfully from 192.168.1.102
+2023-03-12T10:05:33 WARN Failed login attempt for user jenkins from 91.234.56.19
+2023-03-14T02:33:18 ERROR Potential data exfiltration detected from 192.168.1.101 to 217.89.45.55 (250 MB)
+2023-03-15T08:45:29 INFO User admin logged in successfully from 192.168.1.100
+2023-03-17T14:22:36 WARN Multiple failed login attempts from 35.156.87.22
+2023-03-19T23:12:48 ERROR Unauthorized access to admin console from 103.243.28.104
+2023-03-22T15:36:27 INFO User sarah logged in successfully from 192.168.1.101
+2023-03-25T11:43:55 WARN User account 'guest' deleted by admin
+2023-03-27T10:18:36 ERROR Possible brute force attack detected from 91.234.56.19
+2023-03-30T16:22:43 INFO User john logged in successfully from 172.16.5.10
+
+2023-04-02T08:32:15 INFO User admin logged in successfully from 192.168.1.100
+2023-04-05T12:14:53 WARN Failed login attempt for user root from 45.132.55.67
+2023-04-08T09:25:36 INFO Service mysql restarted by user admin
+2023-04-10T14:37:42 INFO User maria logged in successfully from 192.168.1.102
+2023-04-13T18:56:23 WARN Suspicious login time for user jenkins from 192.168.1.103 (off-hours activity)
+2023-04-16T10:45:18 INFO Sensitive file /etc/shadow accessed by user root
+2023-04-20T13:22:45 INFO User alex logged in successfully from 192.168.1.102
+2023-04-25T09:36:27 INFO New user account 'api_user' created by admin
+2023-04-28T16:43:19 WARN Failed login attempt for user api_user from 103.243.28.104
+
+2023-05-01T10:15:22 INFO User sarah logged in successfully from 192.168.1.101
+2023-05-03T13:45:36 WARN Port scan detected from 91.234.56.19
+2023-05-06T11:22:18 INFO User admin logged in successfully from 192.168.1.100
+2023-05-09T15:48:33 WARN Failed login attempt for user jenkins from 217.89.45.55
+2023-05-12T09:37:24 INFO Service apache2 stopped by user admin
+2023-05-15T14:25:43 INFO User john logged in successfully from 172.16.5.10
+2023-05-18T16:36:52 WARN Unusual outbound connection from internal host 192.168.1.103 to 35.156.87.22
+2023-05-22T08:45:19 INFO User maria logged in successfully from 192.168.1.102
+2023-05-25T11:32:47 WARN Failed login attempt for user admin from 45.132.55.67
+2023-05-28T13:56:28 INFO Service mysql restarted by user admin
+
+2023-06-02T09:14:35 INFO User alex logged in successfully from 192.168.1.102
+2023-06-05T12:25:46 WARN Failed login attempt for user admin from 103.243.28.104
+2023-06-08T15:36:27 INFO User api_user logged in successfully from 192.168.1.103
+2023-06-10T17:45:55 WARN Suspicious login time for user root from 91.234.56.19 (off-hours activity)
+2023-06-13T10:22:38 INFO User sarah logged in successfully from 192.168.1.101
+2023-06-16T14:33:49 WARN Multiple failed login attempts from 217.89.45.55
+2023-06-19T09:56:26 ERROR Malware signature detected on host 192.168.1.102 - Backdoor.Generic.12345
+2023-06-22T13:15:37 INFO User admin logged in successfully from 192.168.1.100
+2023-06-25T11:43:59 INFO Service apache2 started by user admin
+2023-06-28T15:27:42 WARN System configuration change by john on 172.16.5.10
+
+2023-07-01T08:34:18 INFO User maria logged in successfully from 192.168.1.102
+2023-07-03T10:45:27 WARN Failed login attempt for user jenkins from 45.132.55.67
+2023-07-03T10:45:52 WARN Failed login attempt for user jenkins from 45.132.55.67
+2023-07-03T10:46:15 WARN Failed login attempt for user jenkins from 45.132.55.67
+2023-07-03T10:46:45 ERROR Possible brute force attack detected from 45.132.55.67
+2023-07-05T13:22:34 INFO User api_user logged in successfully from 192.168.1.103
+2023-07-07T16:38:55 ERROR Privilege escalation attempt by user api_user from 192.168.1.103
+2023-07-09T09:26:43 WARN Port scan detected from 103.243.28.104
+2023-07-11T12:15:37 INFO Firewall blocked connection from 103.243.28.104 to port 443
+2023-07-13T14:43:22 INFO User sarah logged in successfully from 192.168.1.101
+2023-07-15T18:27:36 ERROR Potential data exfiltration detected from 192.168.1.102 to 91.234.56.19 (150 MB)
+2023-07-17T10:34:45 INFO User admin logged in successfully from 192.168.1.100
+2023-07-19T13:56:27 WARN Failed login attempt for user root from 217.89.45.55
+2023-07-21T15:23:18 WARN Unusual outbound connection from internal host 192.168.1.101 to 35.156.87.22
+2023-07-23T09:45:36 INFO Service mysql stopped by user admin
+2023-07-25T11:32:47 WARN Multiple failed login attempts from 45.132.55.67
+2023-07-27T14:26:55 ERROR Unauthorized access to admin console from 103.243.28.104
+2023-07-29T10:15:33 INFO User alex logged in successfully from 192.168.1.102
+2023-07-31T13:45:27 WARN Failed login attempt for user admin from 91.234.56.19
+
+2023-08-02T09:25:14 INFO User john logged in successfully from 172.16.5.10
+2023-08-05T12:36:43 WARN Suspicious login time for user maria from 192.168.1.102 (off-hours activity)
+2023-08-08T15:45:26 INFO User admin logged in successfully from 192.168.1.100
+2023-08-11T10:22:37 INFO Sensitive file /etc/passwd accessed by user admin
+2023-08-14T13:33:48 WARN Failed login attempt for user jenkins from 45.132.55.67
+2023-08-17T16:45:55 INFO Service apache2 restarted by user admin
+2023-08-20T09:27:36 INFO User sarah logged in successfully from 192.168.1.101
+2023-08-23T12:15:44 WARN System configuration change by alex on 192.168.1.102
+2023-08-26T14:36:27 INFO User api_user logged in successfully from 192.168.1.103
+2023-08-29T11:45:35 WARN Failed login attempt for user root from 103.243.28.104
+
+2023-09-01T08:15:22 INFO User maria logged in successfully from 192.168.1.102
+2023-09-04T10:36:44 WARN Port scan detected from 91.234.56.19
+2023-09-07T13:45:26 INFO User admin logged in successfully from 192.168.1.100
+2023-09-10T16:28:37 WARN Failed login attempt for user api_user from 217.89.45.55
+2023-09-13T09:32:48 INFO Service mysql restarted by user admin
+2023-09-16T12:45:33 INFO User john logged in successfully from 172.16.5.10
+2023-09-19T15:26:57 WARN Unusual outbound connection from internal host 192.168.1.103 to 35.156.87.22
+2023-09-22T10:45:28 INFO User sarah logged in successfully from 192.168.1.101
+2023-09-25T13:32:47 WARN Failed login attempt for user jenkins from 45.132.55.67
+2023-09-28T16:15:35 INFO New user account 'guest' created by admin
+
+2023-10-02T09:22:16 INFO User alex logged in successfully from 192.168.1.102
+2023-10-05T12:45:34 WARN Failed login attempt for user admin from 103.243.28.104
+2023-10-08T15:27:45 INFO User api_user logged in successfully from 192.168.1.103
+2023-10-11T10:36:28 WARN Suspicious login time for user root from 91.234.56.19 (off-hours activity)
+2023-10-14T13:43:37 INFO User maria logged in successfully from 192.168.1.102
+2023-10-17T16:25:44 WARN Failed login attempt for user guest from 217.89.45.55
+2023-10-20T09:34:26 INFO Service apache2 stopped by user admin
+2023-10-23T12:45:37 INFO User sarah logged in successfully from 192.168.1.101
+2023-10-26T15:22:48 WARN System configuration change by john on 172.16.5.10
+2023-10-29T10:43:35 INFO User admin logged in successfully from 192.168.1.100
+
+2023-11-01T08:25:17 INFO User jenkins logged in successfully from 192.168.1.103
+2023-11-03T11:36:28 WARN Failed login attempt for user root from 45.132.55.67
+2023-11-03T11:36:55 WARN Failed login attempt for user root from 45.132.55.67
+2023-11-03T11:37:22 WARN Failed login attempt for user root from 45.132.55.67
+2023-11-03T11:37:55 ERROR Possible brute force attack detected from 45.132.55.67
+2023-11-05T14:45:36 INFO User guest logged in successfully from 192.168.1.101
+2023-11-07T09:27:44 WARN Port scan detected from 103.243.28.104
+2023-11-09T12:36:25 INFO Firewall blocked connection from 103.243.28.104 to port 22
+2023-11-11T15:43:38 ERROR Privilege escalation attempt by user guest from 192.168.1.101
+2023-11-13T10:25:47 INFO User admin logged in successfully from 192.168.1.100
+2023-11-15T13:36:29 ERROR Potential data exfiltration detected from 192.168.1.102 to 91.234.56.19 (320 MB)
+2023-11-17T16:45:37 WARN Multiple failed login attempts from 217.89.45.55
+2023-11-19T09:22:48 INFO User maria logged in successfully from 192.168.1.102
+2023-11-21T12:33:56 WARN Unusual outbound connection from internal host 192.168.1.100 to 35.156.87.22
+2023-11-23T15:45:27 ERROR Malware signature detected on host 192.168.1.103 - Ransomware.Crypto.23456
+2023-11-25T10:36:38 INFO User sarah logged in successfully from 192.168.1.101
+2023-11-27T13:25:45 WARN Failed login attempt for user api_user from 45.132.55.67
+2023-11-29T16:43:26 ERROR Unauthorized access to admin console from 103.243.28.104
+
+2023-12-02T09:15:24 INFO User john logged in successfully from 172.16.5.10
+2023-12-05T12:27:35 WARN Suspicious login time for user admin from 192.168.1.100 (off-hours activity)
+2023-12-08T15:36:46 INFO User api_user logged in successfully from 192.168.1.103
+2023-12-11T10:45:28 INFO Sensitive file /etc/shadow accessed by user admin
+2023-12-14T13:22:37 WARN Failed login attempt for user guest from 91.234.56.19
+2023-12-17T16:33:44 INFO Service mysql restarted by user admin
+2023-12-20T09:45:26 INFO User sarah logged in successfully from 192.168.1.101
+2023-12-23T12:36:35 WARN System configuration change by maria on 192.168.1.102
+2023-12-26T15:27:48 INFO User jenkins logged in successfully from 192.168.1.103
+2023-12-29T10:43:37 WARN Failed login attempt for user root from 217.89.45.55
+2023-12-31T23:59:45 INFO System backup completed successfully by admin
+
+2024-01-02T10:15:22 INFO User admin logged in successfully from 192.168.1.100
+2024-01-05T13:27:36 WARN Failed login attempt for user root from 45.132.55.67
+2024-01-08T09:33:19 INFO User maria logged in successfully from 192.168.1.102
+2024-01-10T14:44:28 WARN Suspicious login time for user jenkins from 192.168.1.103 (off-hours activity)
+2024-01-12T11:56:37 INFO Service apache2 restarted by user admin
+2024-01-15T16:22:45 WARN Failed login attempt for user admin from 103.243.28.104
+2024-01-18T08:35:26 INFO User john logged in successfully from 172.16.5.10
+2024-01-21T12:47:33 WARN Port scan detected from 91.234.56.19
+2024-01-24T15:23:48 INFO User sarah logged in successfully from 192.168.1.101
+2024-01-27T10:34:29 INFO New user account 'developer' created by admin
+2024-01-30T13:56:37 WARN Failed login attempt for user developer from 217.89.45.55
+
+2024-02-02T09:22:18 INFO User api_user logged in successfully from 192.168.1.103
+2024-02-05T12:33:27 WARN System configuration change by admin on 192.168.1.100
+2024-02-08T15:45:36 INFO User maria logged in successfully from 192.168.1.102
+2024-02-11T10:56:45 WARN Failed login attempt for user root from 35.156.87.22
+2024-02-14T13:27:33 INFO Sensitive file /etc/passwd accessed by user admin
+2024-02-17T16:34:24 WARN Unusual outbound connection from internal host 192.168.1.101 to 45.132.55.67
+2024-02-20T09:45:36 INFO User developer logged in successfully from 192.168.1.100
+2024-02-23T12:56:28 WARN Failed login attempt for user jenkins from 103.243.28.104
+2024-02-26T15:22:37 INFO Service mysql restarted by user admin
+2024-02-29T11:33:49 WARN Failed login attempt for user guest from 91.234.56.19
+
+2024-03-02T08:25:19 INFO User john logged in successfully from 172.16.5.10
+2024-03-04T11:36:28 WARN Failed login attempt for user admin from 217.89.45.55
+2024-03-04T11:37:03 WARN Failed login attempt for user admin from 217.89.45.55
+2024-03-04T11:37:42 WARN Failed login attempt for user admin from 217.89.45.55
+2024-03-04T11:38:15 ERROR Possible brute force attack detected from 217.89.45.55
+2024-03-06T14:45:36 INFO User sarah logged in successfully from 192.168.1.101
+2024-03-08T09:56:48 WARN Port scan detected from 35.156.87.22
+2024-03-10T12:27:35 INFO Firewall blocked connection from 35.156.87.22 to port 80
+2024-03-12T15:34:27 INFO User api_user logged in successfully from 192.168.1.103
+2024-03-14T10:46:38 ERROR Privilege escalation attempt by user developer from 192.168.1.100
+2024-03-16T13:25:47 INFO User maria logged in successfully from 192.168.1.102
+2024-03-18T16:34:56 WARN Multiple failed login attempts from 45.132.55.67
+2024-03-20T09:45:28 ERROR Malware signature detected on host 192.168.1.102 - Spyware.Keylogger.34567
+2024-03-22T12:33:37 INFO User admin logged in successfully from 192.168.1.100
+2024-03-24T15:22:49 WARN Unusual outbound connection from internal host 192.168.1.103 to 103.243.28.104
+2024-03-26T10:45:36 ERROR Potential data exfiltration detected from 192.168.1.101 to 217.89.45.55 (175 MB)
+2024-03-28T13:24:45 INFO Service apache2 stopped by user admin
+2024-03-30T16:35:27 WARN Failed login attempt for user root from 91.234.56.19
+
+2024-04-02T09:15:28 INFO User jenkins logged in successfully from 192.168.1.103
+2024-04-05T12:26:37 WARN Suspicious login time for user sarah from 192.168.1.101 (off-hours activity)
+2024-04-08T15:37:46 INFO User admin logged in successfully from 192.168.1.100
+2024-04-11T10:48:25 WARN Failed login attempt for user maria from 35.156.87.22
+2024-04-14T13:25:36 INFO Service mysql restarted by user admin
+2024-04-17T16:36:47 WARN System configuration change by developer on 192.168.1.100
+2024-04-20T09:42:28 INFO User john logged in successfully from 172.16.5.10
+2024-04-23T12:53:36 WARN Failed login attempt for user api_user from 45.132.55.67
+2024-04-26T15:24:45 INFO Sensitive file /etc/shadow accessed by user admin
+2024-04-29T10:35:27 WARN Port scan detected from 103.243.28.104
+
+2024-05-02T08:46:19 INFO User maria logged in successfully from 192.168.1.102
+2024-05-05T11:25:28 WARN Failed login attempt for user root from 217.89.45.55
+2024-05-08T14:36:37 INFO User developer logged in successfully from 192.168.1.100
+2024-05-11T09:47:29 WARN Unusual outbound connection from internal host 192.168.1.101 to 91.234.56.19
+2024-05-14T12:23:38 INFO User sarah logged in successfully from 192.168.1.101
+2024-05-17T15:34:47 WARN Failed login attempt for user jenkins from 35.156.87.22
+2024-05-20T10:45:56 INFO Service apache2 started by user admin
+2024-05-23T13:26:35 WARN Multiple failed login attempts from 45.132.55.67
+2024-05-26T16:37:48 INFO User api_user logged in successfully from 192.168.1.103
+2024-05-29T09:44:27 WARN Failed login attempt for user guest from 103.243.28.104
+
+2024-06-01T12:25:36 INFO User admin logged in successfully from 192.168.1.100
+2024-06-04T15:36:45 WARN Suspicious login time for user john from 172.16.5.10 (off-hours activity)
+2024-06-07T10:47:28 INFO User maria logged in successfully from 192.168.1.102
+2024-06-10T13:24:37 WARN Failed login attempt for user root from 217.89.45.55
+2024-06-13T16:35:46 INFO New user account 'analyst' created by admin
+2024-06-16T09:46:25 INFO User sarah logged in successfully from 192.168.1.101
+2024-06-19T12:23:38 WARN System configuration change by api_user on 192.168.1.103
+2024-06-22T15:34:47 INFO User developer logged in successfully from 192.168.1.100
+2024-06-25T10:45:29 WARN Port scan detected from 91.234.56.19
+2024-06-28T13:26:38 INFO Service mysql stopped by user admin
+
+2024-07-01T08:37:19 INFO User jenkins logged in successfully from 192.168.1.103
+2024-07-03T11:48:28 WARN Failed login attempt for user admin from 45.132.55.67
+2024-07-03T11:48:55 WARN Failed login attempt for user admin from 45.132.55.67
+2024-07-03T11:49:22 WARN Failed login attempt for user admin from 45.132.55.67
+2024-07-03T11:49:58 ERROR Possible brute force attack detected from 45.132.55.67
+2024-07-05T14:25:37 INFO User analyst logged in successfully from 192.168.1.102
+2024-07-07T09:36:48 ERROR Privilege escalation attempt by user analyst from 192.168.1.102
+2024-07-09T12:47:29 WARN Failed login attempt for user maria from 35.156.87.22
+2024-07-11T15:24:36 INFO Firewall blocked connection from 35.156.87.22 to port 443
+2024-07-13T10:35:45 ERROR Malware signature detected on host 192.168.1.103 - Ransomware.Crypto.45678
+2024-07-15T13:46:27 INFO User admin logged in successfully from 192.168.1.100
+2024-07-17T16:25:38 WARN Unusual outbound connection from internal host 192.168.1.103 to 103.243.28.104
+2024-07-19T09:36:47 WARN Multiple failed login attempts from 217.89.45.55
+2024-07-21T12:47:26 INFO User john logged in successfully from 172.16.5.10
+2024-07-23T15:23:39 ERROR Potential data exfiltration detected from 192.168.1.102 to 91.234.56.19 (280 MB)
+2024-07-25T10:34:48 INFO User sarah logged in successfully from 192.168.1.101
+2024-07-27T13:45:27 WARN Failed login attempt for user root from 45.132.55.67
+2024-07-29T16:26:38 ERROR Unauthorized access to admin console from 35.156.87.22
+2024-07-31T09:37:45 INFO User developer logged in successfully from 192.168.1.100
+
+2024-08-02T12:48:27 WARN Suspicious login time for user api_user from 192.168.1.103 (off-hours activity)
+2024-08-05T15:25:36 INFO User maria logged in successfully from 192.168.1.102
+2024-08-08T10:36:48 WARN Failed login attempt for user jenkins from 103.243.28.104
+2024-08-11T13:47:25 INFO Service apache2 restarted by user admin
+2024-08-14T16:23:37 WARN System configuration change by analyst on 192.168.1.102
+2024-08-17T09:34:49 INFO User sarah logged in successfully from 192.168.1.101
+2024-08-20T12:45:26 WARN Port scan detected from 217.89.45.55
+2024-08-23T15:26:38 INFO User admin logged in successfully from 192.168.1.100
+2024-08-26T10:37:47 WARN Failed login attempt for user root from 91.234.56.19
+2024-08-29T13:48:25 INFO Sensitive file /etc/passwd accessed by user admin
+
+2024-09-01T09:25:36 INFO User john logged in successfully from 172.16.5.10
+2024-09-04T12:36:48 WARN Failed login attempt for user developer from 45.132.55.67
+2024-09-07T15:47:27 INFO User api_user logged in successfully from 192.168.1.103
+2024-09-10T10:23:36 WARN Unusual outbound connection from internal host 192.168.1.101 to 35.156.87.22
+2024-09-13T13:34:45 INFO User maria logged in successfully from 192.168.1.102
+2024-09-16T16:45:28 WARN Failed login attempt for user analyst from 103.243.28.104
+2024-09-19T09:26:37 INFO Service mysql restarted by user admin
+2024-09-22T12:37:49 WARN Multiple failed login attempts from 217.89.45.55
+2024-09-25T15:48:26 INFO User sarah logged in successfully from 192.168.1.101
+2024-09-28T10:25:37 WARN Failed login attempt for user root from 91.234.56.19
+
+2024-10-01T13:36:48 INFO User admin logged in successfully from 192.168.1.100
+2024-10-04T16:47:25 WARN Suspicious login time for user jenkins from 192.168.1.103 (off-hours activity)
+2024-10-07T09:23:37 INFO User developer logged in successfully from 192.168.1.100
+2024-10-10T12:34:46 WARN Failed login attempt for user maria from 45.132.55.67
+2024-10-13T15:45:28 INFO New user account 'auditor' created by admin
+2024-10-16T10:26:39 WARN System configuration change by john on 172.16.5.10
+2024-10-19T13:37:47 INFO User analyst logged in successfully from 192.168.1.102
+2024-10-22T16:48:26 WARN Port scan detected from 35.156.87.22
+2024-10-25T09:25:38 INFO Firewall blocked connection from 35.156.87.22 to port 22
+2024-10-28T12:36:47 WARN Failed login attempt for user api_user from 103.243.28.104
+2024-10-31T15:47:29 INFO User sarah logged in successfully from 192.168.1.101
+
+2024-11-02T10:23:36 INFO User auditor logged in successfully from 192.168.1.100
+2024-11-04T13:34:47 WARN Failed login attempt for user admin from 217.89.45.55
+2024-11-04T13:35:15 WARN Failed login attempt for user admin from 217.89.45.55
+2024-11-04T13:35:48 WARN Failed login attempt for user admin from 217.89.45.55
+2024-11-04T13:36:20 ERROR Possible brute force attack detected from 217.89.45.55
+2024-11-06T16:45:28 INFO User maria logged in successfully from 192.168.1.102
+2024-11-08T09:26:39 WARN Failed login attempt for user root from 91.234.56.19
+2024-11-10T12:37:45 ERROR Malware signature detected on host 192.168.1.100 - Trojan.Dropper.56789
+2024-11-12T15:48:27 INFO User john logged in successfully from 172.16.5.10
+2024-11-14T10:25:38 ERROR Privilege escalation attempt by user auditor from 192.168.1.100
+2024-11-16T13:36:49 INFO User jenkins logged in successfully from 192.168.1.103
+2024-11-18T16:47:26 WARN Unusual outbound connection from internal host 192.168.1.102 to 45.132.55.67
+2024-11-20T09:23:37 WARN Multiple failed login attempts from 103.243.28.104
+2024-11-22T12:34:48 INFO User developer logged in successfully from 192.168.1.100
+2024-11-24T15:45:25 ERROR Potential data exfiltration detected from 192.168.1.103 to 35.156.87.22 (350 MB)
+2024-11-26T10:26:37 INFO User sarah logged in successfully from 192.168.1.101
+2024-11-28T13:37:49 WARN Failed login attempt for user analyst from 217.89.45.55
+2024-11-30T16:48:26 ERROR Unauthorized access to admin console from 91.234.56.19
+
+2024-12-02T09:25:37 INFO User admin logged in successfully from 192.168.1.100
+2024-12-05T12:36:45 WARN Suspicious login time for user maria from 192.168.1.102 (off-hours activity)
+2024-12-08T15:47:28 INFO User api_user logged in successfully from 192.168.1.103
+2024-12-11T10:23:36 WARN Failed login attempt for user auditor from 45.132.55.67
+2024-12-14T13:34:47 INFO Service apache2 stopped by user admin
+2024-12-17T16:45:29 WARN System configuration change by developer on 192.168.1.100
+2024-12-20T09:26:38 INFO User john logged in successfully from 172.16.5.10
+2024-12-23T12:37:45 WARN Port scan detected from 103.243.28.104
+2024-12-26T15:48:27 INFO User sarah logged in successfully from 192.168.1.101
+2024-12-29T10:25:36 WARN Failed login attempt for user root from 35.156.87.22
+2024-12-31T23:59:48 INFO System backup completed successfully by admin
+
+2025-01-02T11:36:25 INFO User admin logged in successfully from 192.168.1.100
+2025-01-05T14:47:36 WARN Failed login attempt for user jenkins from 217.89.45.55
+2025-01-08T09:24:47 INFO User maria logged in successfully from 192.168.1.102
+2025-01-11T12:35:28 WARN Suspicious login time for user developer from 192.168.1.100 (off-hours activity)
+2025-01-14T15:46:39 INFO Service mysql restarted by user admin
+2025-01-17T10:25:47 WARN Failed login attempt for user root from 91.234.56.19
+2025-01-20T13:36:25 INFO User analyst logged in successfully from 192.168.1.102
+2025-01-23T16:47:38 WARN Unusual outbound connection from internal host 192.168.1.101 to 45.132.55.67
+2025-01-26T09:23:49 INFO User sarah logged in successfully from 192.168.1.101
+2025-01-29T12:34:27 WARN Failed login attempt for user api_user from 103.243.28.104
+
+2025-02-01T15:45:36 INFO User auditor logged in successfully from 192.168.1.100
+2025-02-04T10:26:48 WARN Failed login attempt for user admin from 35.156.87.22
+2025-02-07T13:37:25 INFO User john logged in successfully from 172.16.5.10
+2025-02-10T16:48:37 WARN System configuration change by api_user on 192.168.1.103
+2025-02-13T09:25:46 INFO Sensitive file /etc/shadow accessed by user admin
+2025-02-16T12:36:28 WARN Failed login attempt for user maria from 217.89.45.55
+2025-02-19T15:47:39 INFO User developer logged in successfully from 192.168.1.100
+2025-02-22T10:23:45 WARN Port scan detected from 91.234.56.19
+2025-02-25T13:34:27 INFO Service apache2 started by user admin
+2025-02-28T16:45:38 WARN Failed login attempt for user jenkins from 45.132.55.67
+
+2025-03-02T09:26:49 INFO User maria logged in successfully from 192.168.1.102
+2025-03-04T12:37:26 WARN Failed login attempt for user admin from 103.243.28.104
+2025-03-04T12:37:55 WARN Failed login attempt for user admin from 103.243.28.104
+2025-03-04T12:38:24 WARN Failed login attempt for user admin from 103.243.28.104
+2025-03-04T12:38:58 ERROR Possible brute force attack detected from 103.243.28.104
+2025-03-06T15:48:37 INFO User sarah logged in successfully from 192.168.1.101
+2025-03-08T10:25:48 ERROR Malware signature detected on host 192.168.1.102 - Backdoor.Advanced.67890
+2025-03-10T13:36:25 WARN Failed login attempt for user analyst from 35.156.87.22
+2025-03-11T11:15:00 INFO Sample log entry for SIEM testing
+2025-03-11T11:15:01 WARN Suspicious login attempt from 192.168.1.100
+2025-03-11T11:15:02 ERROR Failed login for user admin from 192.168.1.100
+2025-03-11T11:15:03 INFO User john logged in successfully
+2025-03-11T11:15:04 WARN Multiple failed login attempts detected
+2025-03-11T11:15:05 ERROR Possible brute force attack from 192.168.1.100
+2025-03-13T16:47:39 INFO User api_user logged in successfully from 192.168.1.103
+2025-03-15T09:23:45 WARN Multiple failed login attempts from 217.89.45.55
+2025-03-17T12:34:27 ERROR Privilege escalation attempt by user auditor from 192.168.1.100
+2025-03-19T15:45:38 INFO User admin logged in successfully from 192.168.1.100
+2025-03-21T10:26:49 WARN Unusual outbound connection from internal host 192.168.1.103 to 91.234.56.19
+2025-03-23T13:37:26 ERROR Potential data exfiltration detected from 192.168.1.101 to 45.132.55.67 (420 MB)
+2025-03-25T16:48:37 INFO User john logged in successfully from 172.16.5.10
+2025-03-27T09:25:48 WARN Failed login attempt for user root from 103.243.28.104
+2025-03-29T12:36:25 ERROR Unauthorized access to admin console from 35.156.87.22
+2025-03-31T15:47:36 INFO User developer logged in successfully from 192.168.1.100

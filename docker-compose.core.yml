@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # Elasticsearch - Core data store
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.10.4
+    container_name: elasticsearch
+    environment:
+      - node.name=elasticsearch
+      - cluster.name=siem-cluster
+      - discovery.type=single-node
+      - bootstrap.memory_lock=false
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+      - xpack.security.enabled=false
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    networks:
+      - siem-network
+    restart: unless-stopped
+
+  # Kibana - Visualization interface
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.10.4
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    networks:
+      - siem-network
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+
+  # Filebeat - Log collection
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.10.4
+    container_name: filebeat
+    user: root
+    command: filebeat -e -strict.perms=false
+    volumes:
+      - ./config/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./data:/logs:ro
+    networks:
+      - siem-network
+    depends_on:
+      - elasticsearch
+      - kibana
+    restart: unless-stopped
+
+networks:
+  siem-network:
+    driver: bridge
+
+volumes:
+  es_data:
