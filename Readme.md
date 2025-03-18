@@ -12,7 +12,6 @@ A comprehensive Security Information and Event Management (SIEM) solution enhanc
 
 This project combines the powerful Elastic Stack (Elasticsearch, Kibana, Filebeat) with a custom Python-based Security Log Analyzer to create a complete security monitoring solution. The system collects, stores, and visualizes security logs while leveraging machine learning and NLP techniques to uncover hidden patterns, detect anomalies, and extract actionable insights.
 
-![Architecture Overview](https://via.placeholder.com/800x400.png?text=Enhanced+SIEM+Architecture)
 
 ## Features
 
